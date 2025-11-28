@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   test:
-    name: Test (${{ matrix.module }}) (v ${{ matrix.version }})
+    name: ${{ matrix.module }} (v${{ matrix.version }})
     runs-on: ubuntu-latest
     strategy:
       matrix:
